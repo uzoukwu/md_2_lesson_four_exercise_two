@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lesson_four_exercise_two</string>
+    <string name="tvPictures">Pictures</string>
+    <string name="tvJokes">Jokes</string>
+    <string name="tvFacts">Facts</string>
+    <string name="tvQuotes">Quotes</string>
+    <string name="tvSeaImages">Sea Images</string>
+    <string name="tvEmotionImages">Emotion Images</string>
+    <string name="tvAuthor">About the Author</string>
+    <string name="dummyText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</string>
+</resources>

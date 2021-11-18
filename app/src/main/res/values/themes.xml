@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Lesson_four_exercise_two" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="background">
+        <item name="android:background">@color/yellow</item>
+    </style>
+
+    <style name="mainMenu">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/lightblue</item>
+        <item name="fontFamily">@font/aclonica</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:width">200dp</item>
+        <item name="android:padding">10dp</item>
+ </style>
+
+    <style name="contentPages" parent="mainMenu">
+        <item name="android:background">@color/sand</item>
+        <item name="android:textColor">@color/darkblue</item>
+        <item name="android:layout_marginTop">0dp</item>
+
+
+    </style>
+</resources>
