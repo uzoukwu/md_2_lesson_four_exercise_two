@@ -11,10 +11,12 @@
         android:theme="@style/Theme.Lesson_four_exercise_two">
         <activity
             android:name=".Jokes"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".AboutAuthor"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

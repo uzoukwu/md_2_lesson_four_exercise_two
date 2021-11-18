@@ -18,11 +18,32 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:id="@+id/tvJoke1"
+        style="@style/contentPages"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/JokeOne"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvHeaderJokes" />
+
+    <TextView
+        android:id="@+id/tvJoke2"
+        style="@style/contentPages"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/JokeTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJoke1" />
+
+    <TextView
+        android:id="@+id/tvjoke3"
+        style="@style/contentPages"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/JokeThree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJoke2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

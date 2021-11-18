@@ -16,9 +16,17 @@ public class MainActivity extends AppCompatActivity {
         View author = findViewById(R.id.tvAuthor);
         author.setOnClickListener(view -> aboutAuthor());
 
+        View jokes = findViewById(R.id.tvJokes);
+        jokes.setOnClickListener(view -> contentJokes());
+
     }
     public void aboutAuthor(){
         Intent intent = new Intent(this, AboutAuthor.class);
+        startActivity(intent);
+    }
+
+    public void contentJokes(){
+        Intent intent = new Intent(this, Jokes.class);
         startActivity(intent);
     }
 }
