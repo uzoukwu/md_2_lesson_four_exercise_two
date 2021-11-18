@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson_four_exercise_two">
         <activity
+            android:name=".Jokes"
+            android:exported="false" />
+        <activity
             android:name=".AboutAuthor"
             android:exported="true" />
         <activity
