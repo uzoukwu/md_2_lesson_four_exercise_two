@@ -10,8 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson_four_exercise_two">
         <activity
+            android:name=".Sea"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Emotion"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".Facts"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Quotes"
             android:exported="false"

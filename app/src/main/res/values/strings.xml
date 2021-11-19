@@ -15,4 +15,7 @@
     <string name="quote1">\"Believe you can, and you are halfway there.\" - Theodore Roosevelt</string>
     <string name="quote2">\"Life is like riding a bicycle. To keep your balance, you must always keep moving.\" - Albert Einstein</string>
     <string name="quote3">\"You are never too old to set another goal or to dream a new dream.\" - C.S. Lewis</string>
+    <string name="fact1">Some cats are allergic to people.  FYI for all you people allergic to cats: they might be allergic to you, too! It\'s pretty uncommon due to the fact that we bathe ourselves more often than other species and don\'t shed as much hair or dead skin, but yes, it does happen.</string>
+    <string name="fact2">Apple Pie isn\'t actually American at all.  The next time you call something \"as American as apple pie,\" you might want to consider the fact that neither apple pies nor apples originally came from America. Apples are in fact native to Asia, and the first recorded recipe for apple pie was actually written in England.</string>
+    <string name="fact3">The Crown Jewels contain the two biggest cut diamonds on Earth.  They both came from the Cullinan Diamond, a 3,106-carat gem found in South Africa in 1905. The largest stone, called the Great Star of Africa, is in the Sovereign\'s Sceptre, while the second largest is mounted in the Imperial State Crown.</string>
 </resources>
