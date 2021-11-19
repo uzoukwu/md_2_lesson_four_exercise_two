@@ -23,7 +23,7 @@
         <item name="android:background">@color/black</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/lightblue</item>
-        <item name="fontFamily">@font/aclonica</item>
+        <item name="fontFamily">@font/anonymous_pro</item>
         <item name="android:textSize">20sp</item>
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:width">200dp</item>
@@ -31,18 +31,11 @@
  </style>
 
     <style name="contentPages" parent="mainMenu">
-        <item name="android:background">@color/sand</item>
+        <item name="android:background">@color/lightblue</item>
         <item name="android:textColor">@color/darkblue</item>
+        <item name="android:textAlignment">center</item>
         <item name="android:layout_marginTop">0dp</item>
-
     </style>
 
-    <style name="ContentHeader">
-        <item name="android:textColor">@color/darkred</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:padding">10dp</item>
-        <item name="android:textSize">40sp</item>
-
-    </style>
 
 </resources>

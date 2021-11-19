@@ -7,17 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".AboutAuthor">
 
-    <ImageView
-        android:id="@+id/ivAuthorImage"
-        android:layout_width="267dp"
-        android:layout_height="134dp"
-        android:layout_marginTop="12dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvHeaderAuthor"
-        tools:srcCompat="@drawable/woman_g795054c68_640" />
-
     <TextView
         android:id="@+id/tvHeaderAuthor"
         style="@style/contentPages"
@@ -32,13 +21,15 @@
 
     <TextView
         android:id="@+id/tvAboutText"
-        android:layout_width="393dp"
-        android:layout_height="105dp"
-        android:layout_marginTop="68dp"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:padding="5dp"
         android:text="@string/dummyText"
         android:textAlignment="viewStart"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivAuthorImage" />
 
@@ -52,5 +43,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvAboutText"
         app:srcCompat="@drawable/social" />
+
+    <ImageView
+        android:id="@+id/ivAuthorImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeaderAuthor"
+        app:srcCompat="@drawable/author" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

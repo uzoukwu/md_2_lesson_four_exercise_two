@@ -10,13 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson_four_exercise_two">
         <activity
+            android:name=".Facts"
+            android:exported="false" />
+        <activity
+            android:name=".Quotes"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Pictures"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".Jokes"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".AboutAuthor"
             android:exported="true"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -26,6 +37,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

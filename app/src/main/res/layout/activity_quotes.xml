@@ -5,49 +5,49 @@
     style="@style/contentPages"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Jokes">
+    tools:context=".Quotes">
 
     <TextView
-        android:id="@+id/tvHeaderJokes"
+        android:id="@+id/tvHeaderQuotes"
         style="@style/contentPages"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvJokes"
+        android:text="@string/tvQuotes"
+        android:textColor="@color/darkblue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvJoke1"
+        android:id="@+id/textView2"
         style="@style/contentPages"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/JokeOne"
+        android:text="@string/quote1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvHeaderJokes" />
+        app:layout_constraintTop_toBottomOf="@+id/tvHeaderQuotes" />
 
     <TextView
-        android:id="@+id/tvJoke2"
+        android:id="@+id/textView3"
         style="@style/contentPages"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/JokeTwo"
+        android:text="@string/quote2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvJoke1" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
-        android:id="@+id/tvjoke3"
+        android:id="@+id/textView4"
         style="@style/contentPages"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/JokeThree"
+        android:text="@string/quote3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvJoke2" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

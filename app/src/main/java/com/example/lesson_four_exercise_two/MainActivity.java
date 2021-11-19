@@ -19,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
         View jokes = findViewById(R.id.tvJokes);
         jokes.setOnClickListener(view -> contentJokes());
 
+        View pictures = findViewById(R.id.tvPictures);
+        pictures.setOnClickListener(view -> contentPictures());
+
+        View quotes = findViewById(R.id.tvQuotes);
+        quotes.setOnClickListener(view -> contentQuotes());
+
+
     }
     public void aboutAuthor(){
         Intent intent = new Intent(this, AboutAuthor.class);
@@ -27,6 +34,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void contentJokes(){
         Intent intent = new Intent(this, Jokes.class);
+        startActivity(intent);
+    }
+
+    public void contentPictures(){
+        Intent intent = new Intent(this, Pictures.class);
+        startActivity(intent);
+    }
+
+    public void contentQuotes(){
+        Intent intent = new Intent(this, Quotes.class);
         startActivity(intent);
     }
 }
